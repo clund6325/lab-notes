@@ -76,7 +76,7 @@ import { Link } from 'react-router-dom';
               required
               as="textarea"
             />
-          <button type="submit">Submit</button>
+          <Button type="submit">Submit</Button>
         </Form>
       </Modal.Body>
     </Modal>

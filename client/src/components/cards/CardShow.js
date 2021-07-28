@@ -33,7 +33,7 @@ const CardShow = ({ ColId,  deleteCard, history, id, title, notes, end_time, upd
               />
               }
               id="dropdown-basic-button">
-            <Dropdown.Item eventKey={1}>
+            <Dropdown.Item eventKey={1}/>
               <CardForm
                 ColId={ColId}
                 id={id}
@@ -43,7 +43,6 @@ const CardShow = ({ ColId,  deleteCard, history, id, title, notes, end_time, upd
                 history={history}
                 updateCard={updateCard}
               />
-            </Dropdown.Item>
             <Dropdown.Item divider />
             <Dropdown.Item eventKey={2}>
               <Link onClick={() => deleteCard(ColId, id, history)}>Delete</Link>
