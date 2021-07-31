@@ -12,6 +12,18 @@ A website for goal creating and tracking.
 
 * React 17.0.2
 
+* axios 0.21.1
+
+* react-datepicker 4.1.1
+
+* react-dom 17.0.2
+
+* react-dropzone 11.3.4
+
+* react-moment 1.1.1
+
+* react-router-dom 5.2.0
+
 * Bundle and Yarn at beginning
 
 # Getting Started with Create React App
